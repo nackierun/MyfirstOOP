@@ -70,9 +70,9 @@ $mack = new Person('sanathak','srisuwan','female');
 echo $nack->sayhello();
 echo $mack->sayhello()."gender: ".$mack->getGender()."</br>";
 //creat object of employee
-$employee = new Employee('backend deverloper','mack','srisuwan');
+$employee = new Employee('backend developer','mack','srisuwan');
 echo $employee->getJobTitle()."</br>";
-$mack = new Employee('backend deverloper','mack','srisuwan');
+$mack = new Employee('backend developer','mack','srisuwan');
 //output
 echo $mack->sayhello()." ".$mack->getJobTitle();
 echo "\n";
@@ -80,8 +80,8 @@ echo $mack->getGender();
 echo "\n";
 echo $mack->sayhello();
 //creat frome private
-$mack = new Employee('backend deverloper','mack','srisuwan');
-$mack->setJobTitle = 'frontend deverloper';
+$mack = new Employee('backend developer','mack','srisuwan');
+$mack->setJobTitle = 'frontend developer';
 //output
 echo $mack->setJobTitle;
 ?>
